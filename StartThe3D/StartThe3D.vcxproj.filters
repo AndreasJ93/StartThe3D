@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\System Classes">
+      <UniqueIdentifier>{55d1e07e-038f-4649-bb53-4f0f0e9137c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System Classes">
+      <UniqueIdentifier>{1912741a-0e43-415c-b86c-2c09a01b052d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader Classes">
+      <UniqueIdentifier>{9edb04a6-bd7b-410b-9aa6-7b13e8db0db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphic Classes">
+      <UniqueIdentifier>{98d55738-548a-4726-b5dd-b52db4940379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphic Classes">
+      <UniqueIdentifier>{dacdf37e-db2b-4906-9f3d-d9b89fb3c3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphic Classes\Model Classes">
+      <UniqueIdentifier>{2895093a-d5b8-4de7-a732-d8d230f83580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Help Files">
+      <UniqueIdentifier>{63d18315-c1cb-4d20-a053-3282b7108485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DirectXTK">
+      <UniqueIdentifier>{917daf51-7554-4f36-8a3c-13fc19590b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectXTK">
+      <UniqueIdentifier>{8a76042c-24ed-45d5-8b5e-caedf5c4af48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphic Classes\Model Classes">
+      <UniqueIdentifier>{f4b05247-a65a-4487-a55b-1534963b1751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphic Classes\Shader Classes">
+      <UniqueIdentifier>{214866d8-356d-4f1a-8a00-ec5ded292072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphic Classes\Shader Classes">
+      <UniqueIdentifier>{e89507dd-fdca-45e6-bf69-e4e115ee543f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{d468ed08-e703-4a01-9b0a-046e7e848c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Base Shader">
+      <UniqueIdentifier>{097740b9-bb58-4598-bbb5-3ed7879e9d96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="System Class.h">
+      <Filter>Header Files\System Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Input Class.h">
+      <Filter>Header Files\System Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic Class.h">
+      <Filter>Header Files\Graphic Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX Class.h">
+      <Filter>Header Files\Graphic Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera Class.h">
+      <Filter>Header Files\Graphic Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer Class.h">
+      <Filter>Header Files\System Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Model Class.h">
+      <Filter>Header Files\Graphic Classes\Model Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Overload Functions.h">
+      <Filter>Header Files\Help Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Help Functions and Libraries.h">
+      <Filter>Header Files\Help Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Header Files\Help Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture Class.h">
+      <Filter>Header Files\Graphic Classes\Model Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\DirectXHelpers.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\pch.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\PlatformHelpers.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTK\WICTextureLoader.h">
+      <Filter>Header Files\DirectXTK</Filter>
+    </ClInclude>
+    <ClInclude Include="Base Shader Class.h">
+      <Filter>Header Files\Graphic Classes\Shader Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System Class.cpp">
+      <Filter>Source Files\System Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Input Class.cpp">
+      <Filter>Source Files\System Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX Class.cpp">
+      <Filter>Source Files\Graphic Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera Class.cpp">
+      <Filter>Source Files\Graphic Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer Class.cpp">
+      <Filter>Source Files\System Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic Class.cpp">
+      <Filter>Source Files\Graphic Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXTK\WICTextureLoader.cpp">
+      <Filter>Source Files\DirectXTK</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture Class.cpp">
+      <Filter>Source Files\Graphic Classes\Model Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Model Class.cpp">
+      <Filter>Source Files\Graphic Classes\Model Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Base Shader Class.cpp">
+      <Filter>Source Files\Graphic Classes\Shader Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="BaseVSShader.hlsl">
+      <Filter>Resource Files\Shaders\Base Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="BasePSShader.hlsl">
+      <Filter>Resource Files\Shaders\Base Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="BaseGSShader.hlsl">
+      <Filter>Resource Files\Shaders\Base Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
